@@ -32,7 +32,4 @@ $(document).ready(function () {
             $(this).toggle(nome.includes(texto));
         });
     });
-
-
-}
-);
+});

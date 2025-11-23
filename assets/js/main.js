@@ -27,5 +27,4 @@ $(document).ready(function () {
         const estadoNome = $("#estados option:selected").text();
         window.location.href = `cidade.html?id=${estadoId}&nome=${estadoNome}`;
     });
-}
-);
+});
