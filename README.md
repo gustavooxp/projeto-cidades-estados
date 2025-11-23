@@ -4,6 +4,29 @@ Este projeto web utiliza a API oficial do IBGE para listar todos os estados bras
 
 ---
 
+## Solicitações do Teste Técnico
+
+O teste tem como objetivo avaliar a capacidade de consumir uma API pública e apresentar os dados de maneira organizada usando HTML, CSS e JavaScript.
+
+Requisitos:
+
+Utilizar a API pública de localidades do IBGE
+  https://servicodados.ibge.gov.br/api/docs/localidades
+
+Desenvolver uma tela para consulta de estados
+(obtendo a lista via AJAX).
+
+Desenvolver uma segunda tela que:
+
+- Receba o estado selecionado;
+- Lista todas as cidades vinculadas;
+- Utiliza AJAX para requisições para a API.
+- Utiliza HTML, CSS e JavaScript (Vanilla) no desenvolvimento.
+- Utiliza jQuery para auxiliar na implementação.
+- Fazer uso de criatividade na construção das telas.
+
+---
+
 ## Funcionalidades
 - Listagem automática dos estados do Brasil via API.
 - Redirecionamento para a página de cidades.

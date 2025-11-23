@@ -23,5 +23,16 @@ $(document).ready(function () {
     $('#voltar').on('click', function () {
         window.location.href = 'index.html';
     });
+
+    $('#pesquisa').on('input', function () {
+        let texto = $(this).val().toLowerCase();
+
+        $('#listaCidades li').filter(function () {
+            const nome = $(this).text().toLowerCase();
+            $(this).toggle(nome.includes(texto));
+        });
+    });
+
+
 }
 );

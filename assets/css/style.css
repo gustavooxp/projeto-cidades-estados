@@ -27,7 +27,6 @@ h1 {
 select,
 
 
-
 button {
   width: 100%;
   padding: 10px;
@@ -63,6 +62,35 @@ button:disabled {
   box-shadow: none;
 }
 
+#pesquisa {
+  width: 90%;
+  padding: 10px 14px;
+  margin: 10px auto 20px auto;
+  display: block;
+  border: 2px solid #024d6f;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+
+#voltar {
+  position: fixed;
+  top: 20px;
+  left: 29px;
+  width: auto !important;
+  padding: 6px 15px;
+  background-color: #00b4cf;
+  border-radius: 11px;
+  cursor: pointer;
+  font-size: 20px;
+
+
+}
+
+#voltar:hover {
+  background-color: #005f8a;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -72,4 +100,3 @@ li {
   padding: 8px 0;
   border-bottom: 1px solid #ddd;
 }
-
