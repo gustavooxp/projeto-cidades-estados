@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    if (window.location.pathname.endsWith('cidades.html')) {
+    if (window.location.pathname.endsWith('cidade.html')) {
         const params = new URLSearchParams(window.location.search);
         const estadoId = params.get('id');
         const estadoNome = params.get('nome');

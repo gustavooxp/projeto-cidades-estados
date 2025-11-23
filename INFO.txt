@@ -1,0 +1,70 @@
+INSTRUÇÕES PARA EXECUÇÃO DO PROJETO
+Autor: Gustavo Miranda
+Empresa: AGROSYS (Teste Técnico – Estágio)
+
+-----------------------------------------------------
+1. Sobre o Projeto
+-----------------------------------------------------
+Este projeto é uma aplicação web que utiliza a API oficial do IBGE 
+para listar todos os estados do Brasil e, ao escolher um estado, 
+mostrar todas as cidades pertencentes a ele.
+
+A aplicação é composta por duas páginas principais:
+- index.html → Exibe os estados
+- cidade.html → Lista as cidades do estado selecionado
+
+A comunicação com a API é feita usando AJAX via jQuery.
+
+-----------------------------------------------------
+2. Estrutura do Projeto
+-----------------------------------------------------
+/
+│-- index.html # Página inicial (lista de estados)
+│-- cidade.html # Página com cidades do estado selecionado
+│-- INFO.txt # Instruções gerais do projeto
+│-- README.md # Documentação do repositório
+│
+│-- /assets
+│ ├── /css
+│ │ └── style.css # Estilos da aplicação
+│ │
+│ ├── /images
+│ │ └── image.png # Imagem usada no projeto
+│ │
+│ └── /js
+│ ├── main.js # Lógica da página inicial (estados)
+│ └── cidade.js # Lógica da página de cidades
+
+-----------------------------------------------------
+3. Como Executar o Projeto
+-----------------------------------------------------
+Para que tudo funcione corretamente, é necessário rodar o projeto 
+em um servidor local — abrir o HTML direto no navegador impedirá 
+as requisições AJAX de funcionarem.
+
+ Forma recomendada: usando a extensão **Live Server** no VS Code.
+
+Passos:
+1. Abra o projeto no Visual Studio Code.
+2. Instale a extensão **Live Server** (caso ainda não tenha).
+3. Clique com o botão direito no arquivo **index.html**.
+4. Selecione **"Open with Live Server"**.
+5. Seu navegador será aberto automaticamente com o projeto rodando.
+
+-----------------------------------------------------
+4. Como Navegar
+-----------------------------------------------------
+1. Abra o arquivo index.html via Live Server.
+2. A página carregará automaticamente a lista de estados usando a API do IBGE.
+3. Após escolher um estado, o botão “Ver Cidades” será habilitado.
+4. Ao clicar, você será enviado para cidade.html com o estado selecionado.
+5. A próxima página mostrará todas as cidades ordenadas de A–Z.
+6. Use o botão “Voltar” para retornar à página inicial.
+
+-----------------------------------------------------
+5. Tecnologias Utilizadas
+-----------------------------------------------------
+- HTML5  
+- CSS3  
+- JavaScript (jQuery)  
+- API do IBGE  
