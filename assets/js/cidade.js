@@ -2,7 +2,7 @@ $(document).ready(function () {
     const params = new URLSearchParams(window.location.search);
     const estadoId = params.get('id');
     const estadoNome = params.get('nome');
-    $('#tituloEstado').text(`Cidades de ${estadoNome}`);
+    $('#tituloEstado').text(`Cidades ${estadoNome}`);
 
     $.ajax({
         url: `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${estadoId}/municipios`,

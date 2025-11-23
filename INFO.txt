@@ -38,27 +38,20 @@ A comunicação com a API é feita usando AJAX via jQuery.
 -----------------------------------------------------
 3. Como Executar o Projeto
 -----------------------------------------------------
-Para que tudo funcione corretamente, é necessário rodar o projeto 
-em um servidor local — abrir o HTML direto no navegador impedirá 
-as requisições AJAX de funcionarem.
+A aplicação está disponível online através do GitHub Pages, então
+não é necessário rodar o projeto em servidor local.
 
- Forma recomendada: usando a extensão **Live Server** no VS Code.
-
-Passos:
-1. Abra o projeto no Visual Studio Code.
-2. Instale a extensão **Live Server** (caso ainda não tenha).
-3. Clique com o botão direito no arquivo **index.html**.
-4. Selecione **"Open with Live Server"**.
-5. Seu navegador será aberto automaticamente com o projeto rodando.
+Para visualizar e testar o sistema, basta acessar o link abaixo:
+    https://gustavooxp.github.io/projeto-cidades-estados/
 
 -----------------------------------------------------
 4. Como Navegar
 -----------------------------------------------------
-1. Abra o arquivo index.html via Live Server.
-2. A página carregará automaticamente a lista de estados usando a API do IBGE.
+1. Acesse o link do GitHub Pages.
+2. A página inicial (index.html) carregará automaticamente a lista de estados usando a API do IBGE.
 3. Após escolher um estado, o botão “Ver Cidades” será habilitado.
 4. Ao clicar, você será enviado para cidade.html com o estado selecionado.
-5. A próxima página mostrará todas as cidades ordenadas de A–Z.
+5. A próxima página exibirá todas as cidades ordenadas de A–Z.
 6. Use o botão “Voltar” para retornar à página inicial.
 
 -----------------------------------------------------

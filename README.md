@@ -14,22 +14,22 @@ Este projeto web utiliza a API oficial do IBGE para listar todos os estados bras
 
 ## Estrutura do Projeto
 
-/
-│-- index.html # Página inicial (lista de estados)
-│-- cidade.html # Página com cidades do estado selecionado
-│-- INFO.txt # Instruções gerais do projeto
-│-- README.md # Documentação do repositório
+📁/
+├── 📄 index.html # Página inicial (lista de estados)
+├── 📄 cidade.html # Página com cidades do estado selecionado
+├── 📄 INFO.txt # Instruções gerais do projeto
+├── 📄 README.md # Documentação do repositório
 │
-│-- /assets
-│ ├── /css
-│ │ └── style.css # Estilos da aplicação
-│ │
-│ ├── /images
-│ │ └── image.png # Imagem usada no projeto
-│ │
-│ └── /js
-│ ├── main.js # Lógica da página inicial (estados)
-│ └── cidade.js # Lógica da página de cidades
+├── 📁assets/ 
+│   ├── 📁css/
+│   │   └── 📄 style.css # Estilos da aplicação
+│   │
+│   ├── 📁images/
+│   │   └── 📄 image.png # Imagem usada no projeto
+│   │
+│   └── 📁js/
+│       ├── 📄 main.js # Lógica da página inicial (estados)
+│       └── 📄 cidade.js # Lógica da página de cidades
 
 ---
 
@@ -43,37 +43,36 @@ Este projeto web utiliza a API oficial do IBGE para listar todos os estados bras
 
 ---
 
-## Como Executar o Projeto
+## Como executar o projeto
 
-As requisições AJAX **não funcionam** ao abrir os arquivos diretamente pelo navegador (file://).  
-É necessário executar o projeto em um servidor local.
+A aplicação está disponível para execução diretamente pelo navegador através do GitHub Pages, sem necessidade de instalação ou servidor local.
 
-### Método recomendado – *Live Server (VS Code)*
-
-1. Abra o projeto no **Visual Studio Code**.
-2. Instale a extensão **Live Server** (caso não tenha).
-3. Clique com o **botão direito** no arquivo `index.html`.
-4. Escolha **Open with Live Server**.
-5. O navegador abrirá automaticamente com o projeto funcionando.
+Acesse a aplicação aqui:
+  https://gustavooxp.github.io/projeto-cidades-estados/
 
 ---
 
 ## Fluxo de Navegação
 
-1. Acesse `index.html` pelo Live Server.  
-2. A lista de estados será carregada automaticamente via API.  
-3. Escolha um estado → o botão **"Ver Cidades"** será habilitado.  
-4. O sistema redireciona para `cidade.html` passando o ID e nome do estado na URL.  
-5. Todas as cidades deste estado serão exibidas em ordem alfabética.  
-6. Clique em **Voltar** para retornar à lista de estados.
+Acesse o link do GitHub Pages.
+
+A página inicial (index.html) carregará automaticamente a lista de estados via API do IBGE.
+
+Escolha um estado → o botão "Ver Cidades" será habilitado.
+
+Ao clicar, você será redirecionado para cidade.html com o ID e nome do estado.
+
+A página exibirá todas as cidades em ordem alfabética.
+
+Use o botão Voltar para retornar à página inicial.
 
 ---
 
 ## Requisitos
 
-- Navegador atualizado (Chrome, Edge, Firefox, etc.)
-- Conexão com a internet (para acessar a API do IBGE)
-- Servidor local (Live Server ou similar)
+Navegador atualizado (Chrome, Edge, Firefox, etc.)
+
+Conexão com a internet (necessária para acessar a API do IBGE)
 
 ---
 
