@@ -37,6 +37,7 @@ Desenvolver uma segunda tela que:
 
 ## Estrutura do Projeto
 
+```bash
 📁/
 ├── 📄 index.html # Página inicial (lista de estados)
 ├── 📄 cidade.html # Página com cidades do estado selecionado
@@ -53,6 +54,7 @@ Desenvolver uma segunda tela que:
 │   └── 📁js/
 │       ├── 📄 main.js # Lógica da página inicial (estados)
 │       └── 📄 cidade.js # Lógica da página de cidades
+```
 
 ---
 
