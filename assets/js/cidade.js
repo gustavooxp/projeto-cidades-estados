@@ -12,11 +12,11 @@ $(document).ready(function () {
             $lista.empty();
             cidades.sort((a, b) => a.nome.localeCompare(b.nome));
             cidades.forEach(cidade => {
-                $lista.append(`<li>${cidade.nome}</li>`);
+                $lista.append(`<li class="list-group-item">${cidade.nome}</li>`);
             });
         },
         error: function () {
-            $('#listaCidades').html('<li>Erro ao carregar as cidades!</li>');
+            $('#listaCidades').html('<li class="list-group-item">Erro ao carregar as cidades!</li>');
         }
     });
 
